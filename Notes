@@ -1,0 +1,27 @@
+Notes about flow and patterns
+
+1. Login
+
+Login is done by authenticating user first then depending on the status returned (200, 400, 404, etc...)
+the program will direct GUI to appropriate UI and load user data from database
+
+2. Registration
+
+Data will be entered by user then sent to data base first, then Data will be loaded into the object itself.
+
+Reason for this is that sending data to database successfully is important, the User if allowed to use program
+with data not yet entered in Database can cause logistical issues.
+
+3. Update
+
+Everytime something is sent update will get all data from database
+
+4. Slot
+
+Slot will show the appointments in all days of the month by getting the date NOW from outside the class and passing
+that date into the instance in a loop that goes for as long as the month is
+
+It will get appointments by looping months, to days, to slot number to see if it equals, if it does it will set
+appointment.
+
+Slot will go in database to get the appointment related to it

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registration">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15327189"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="35541" class="javax.swing.JButton" binding="PatientButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14931655"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="PATIENT"/>
+        </properties>
+      </component>
+      <vspacer id="ed92d">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="d2c5c" class="javax.swing.JButton" binding="SpecialistButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14931655"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="SPECIALIST"/>
+        </properties>
+      </component>
+      <component id="b06a8" class="javax.swing.JButton" binding="AdministratorButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14931655"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="ADMINISTRATOR"/>
+        </properties>
+      </component>
+      <component id="3953b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="First Name:"/>
+        </properties>
+      </component>
+      <component id="6ebb9" class="javax.swing.JTextField" binding="firstnameField">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14931655"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="841bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Fill Out The Following"/>
+        </properties>
+      </component>
+      <vspacer id="c713e">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="a2e61">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="db3b9">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8f9ad" class="javax.swing.JTextField" binding="lastnameField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14931655"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="f57b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Last Name:"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="74d08" class="javax.swing.JPasswordField" binding="passwordField" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14606047"/>
+          <foreground color="-5062973"/>
+        </properties>
+      </component>
+      <component id="99c4e" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Password:"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="a4e96" class="javax.swing.JTextField" binding="specialistField">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14931655"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="984d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Specialist  Type:"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="426d9" class="javax.swing.JButton" binding="registerButton">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16736954"/>
+          <font size="11" style="1"/>
+          <foreground color="-1"/>
+          <label value="REGISTER"/>
+          <text value="REGISTER"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
